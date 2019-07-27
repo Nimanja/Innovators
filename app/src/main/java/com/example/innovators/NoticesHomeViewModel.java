@@ -1,4 +1,4 @@
-package com.example.innovators.ui.noticeshome;
+package com.example.innovators;
 
 import androidx.lifecycle.ViewModel;
 

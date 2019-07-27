@@ -4,15 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class NoticesHome extends AppCompatActivity {
+public class AttendsHome extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.notices_home_activity);
+        setContentView(R.layout.attends_home_activity);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.container, NoticesHomeFragment.newInstance())
+                    .replace(R.id.container, AttendsHomeFragment.newInstance())
                     .commitNow();
         }
     }

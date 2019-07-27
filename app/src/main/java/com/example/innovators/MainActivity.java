@@ -8,8 +8,6 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.innovators.ui.noticeshome.NoticesHomeFragment;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static int SPLASH_TIME_OUT = 3000; //This is 3 seconds
     Button noticesBtn, classBtn;
