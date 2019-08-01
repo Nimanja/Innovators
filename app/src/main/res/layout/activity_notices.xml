@@ -120,7 +120,7 @@
 
     <fragment
         android:id="@+id/defaultFragment"
-        android:name="com.example.innovators.NoticesHome"
+        android:name="com.example.innovators.NoticesHomeFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/view"
